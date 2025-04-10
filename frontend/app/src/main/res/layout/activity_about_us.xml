@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/logo_img"
+            android:layout_width="141dp"
+            android:layout_height="140dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-35dp"
+            android:src="@drawable/img" />
+
+
+        <ImageView
+            android:id="@+id/logo_spectacle"
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenue sur notre application dédiée à la réservation de spectacles ! Notre mission est de vous offrir un accès facile et rapide aux meilleurs événements près de chez vous. Que ce soit pour un concert, une pièce de théâtre ou un spectacle d’humour, nous vous permettons de découvrir, réserver et vivre des moments inoubliables. Grâce à notre interface simple et intuitive, trouvez vos spectacles préférés, vérifiez la disponibilité des places et réservez en quelques clics.\n\nRejoignez-nous et plongez au cœur de l’émotion ! 🎭✨"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Bouton OK -->
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF3C1F"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp" />
+    </LinearLayout>
+</ScrollView>
